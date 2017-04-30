@@ -1,5 +1,10 @@
 #!/usr/bin/perl
 
+#
+# cat nodes.json | ./node2mysqlupdate >updates.sql
+# mysql -f -u user -p database <updates.sql
+#
+
 use strict;
 use warnings;
 use JSON::Parse 'parse_json';
